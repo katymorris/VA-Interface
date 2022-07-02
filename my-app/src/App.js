@@ -1,15 +1,9 @@
 import './App.css';
-import Header from './components/header/Header'
-import Transcript from './components/transcript/Transcript'
-import Footer from './components/footer/Footer'
+import Container from './components/container/Container'
 
 function App() {
   return (
-    <>
-      <Header />
-      <Transcript />
-      <Footer />
-    </>
+      <Container />
   );
 }
 
